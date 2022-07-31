@@ -3,7 +3,7 @@ package app.model;
 import org.springframework.stereotype.Component;
 
 @Component("timer")
-public class Timer {
+public class Timer extends Animal {
 
     private Long nanoTime = System.nanoTime();
 
